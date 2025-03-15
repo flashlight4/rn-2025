@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Kontakt</title>
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=()">
+    <meta http-equiv="X-Frame-Options" content="DENY">
     <meta name="description" content="Kontaktseite von Richard Nikol">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
@@ -35,24 +37,8 @@
                     <p class="text-muted">Senden Sie mir eine Mail</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2 class="display-6 fw-bold text-danger mb-4">Achtung: Derzeit ist der Mail-Versand noch ohne Funktion!</h2>
-                </div>
-            </div>
             <div class="row d-flex justify-content-center">
-                <div class="col-md-6">
-                    <div>
-                        <form class="p-3 p-xl-4" data-bs-theme="light">
-                            <!-- Start: Success Example -->
-                            <div class="mb-3"><input class="shadow form-control" type="text" id="name-1" name="name" placeholder="Name"></div><!-- End: Success Example -->
-                            <!-- Start: Error Example -->
-                            <div class="mb-3"><input class="shadow form-control" type="email" id="email-1" name="email" placeholder="Email"></div><!-- End: Error Example -->
-                            <div class="mb-3"><textarea class="shadow form-control" id="message-1" name="message" rows="6" placeholder="Nachricht"></textarea></div>
-                            <div><button class="btn btn-primary shadow d-block w-100" type="submit">Senden</button></div>
-                        </form>
-                    </div>
-                </div>
+                <div class="col text-center m-4"><img class="img-fluid shadow-lg" src="assets/img/mail.svg" style="max-width: 63%;"></div>
             </div>
         </div>
     </section><!-- End: Contact Details -->
@@ -98,7 +84,6 @@
     </footer><!-- End: Footer Multi Column -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-    <script src="assets/js/smart-forms.min.min.js"></script>
 </body>
 
 </html>
