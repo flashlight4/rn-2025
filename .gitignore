@@ -1,0 +1,57 @@
+# macOS-Systemdateien
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon-Dateien in Verzeichnissen
+Icon
+
+# Thumbnails
+._*
+
+# Spotlight-Verschlüsselung
+.metadata_never_index
+.Spotlight-V100
+
+# Time Machine
+.TemporaryItems
+.fseventsd
+.TemporaryItems
+.Trashes
+
+# Apple-Filesystem-Attribute
+.com.apple.timemachine.supported
+.com.apple.*
+
+# AirDrop- und Handoff-Dateien
+.apdisk
+
+# VS Code & Xcode
+.vscode/
+*.xcworkspace
+*.xcodeproj
+DerivedData/
+build/
+
+# Node.js/Frontend-Projekte
+node_modules/
+dist/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Andere Editor-/Tool-Dateien
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# Git selbst
+.git/
+
+# macOS spezifischer Papierkorb im Projektverzeichnis
+.Trashes
